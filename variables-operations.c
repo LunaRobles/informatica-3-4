@@ -3,11 +3,11 @@
 int main(){
     int length;
     printf("enter the length of the rectangle:");
-     scanf("%d",&length)
+    scanf("%d",&length);
    
-     int with;
+    int with;
     printf("enter the with of the rectangle:");
-    scanf("%d",&with)
+    scanf("%d",&with);
 
     int perimeter = (length + length + with + with);
     printf("perimeter: %d \n",perimeter);
@@ -16,8 +16,8 @@ int main(){
 
 
     int fahrenheit;
-    printf("Enter an integer:");
-    scanf("%d",&fahrenheit)
+    printf("Enter an integer for fahrenheit:");
+    scanf("%d",&fahrenheit);
 
     float celsius = (fahrenheit-32)/1.8;
     printf("fahrenheit: %d \n",fahrenheit);
@@ -25,8 +25,8 @@ int main(){
 
 
     int totalminutes;
-    printf("Enter an integer:");
-    scanf("%d",&totalminutes)
+    printf("Enter an integer for the total minutes:");
+    scanf("%d",&totalminutes);
 
     int hours = totalminutes/60;
     int minutes = totalminutes - (hours*60);
@@ -34,11 +34,10 @@ int main(){
 
     float pi = 3.14;
     int radio;
-    printf("Enter an integer:");
-    scanf("%d",&radio)
+    printf("Enter an integer for the radio of a circle:");
+    scanf("%d",&radio);
 
-
-    int diameter = radio*2;
+    int diameter = radio * radio;
     float areac = diameter * pi;
     printf("the area of a circle that it's diameter is %d, will be: %2f", diameter, areac);
 
