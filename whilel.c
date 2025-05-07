@@ -1,18 +1,20 @@
-// Print numbers from 1 to 5
-
 #include <stdio.h>
 
 int main() {
-  int i = 1;
+  int count = 0;
   int n;
-  printf ("enter a number:");
-  scanf("%d", &n);
-  while (i <= n) {
-    printf("%d\n", i);
-    ++i;
-  }
 
-  printf ("then the number of digits of the given number is the last number in that list");
+  printf ("enter a positive number:");
+  scanf("%d", &n);
+
+  do {
+    n=n/10;
+    //n/=10
+
+    count++;
+  } while (n!=0);
+
+  printf("number of digits: %d\n",count);
 
   return 0;
 }
