@@ -16,18 +16,3 @@
        printf("\n");
         }
  
-    //challenge
-    int m;
-    printf("enter the number of rows the triangle will have as its height:");
-    scanf("%d", &m);
-
-    int a;
-    int k;
-    for (a=1; a<=m; a++){
-       for(k=1; k<=a; k++) {
-            printf("*");
-       }
-       printf("\n");
-        }
-    
-    }
