@@ -4,16 +4,11 @@
 
 int main() {
     srand(time(NULL));
-for{
-    printf("Roll i: %d\n", diceRoll);
-}
-do{
-    int diceRoll = (rand() % 6) + 1; // Generates a number between 1 and 6
-}
+    int i=1;
+    int diceRoll;
+    diceRoll= (rand() % 6) + 1; // Generates a number between 1 and 6
 
+for {(i=1; i<6; ++i);}
+do  {printf("you get a:%d\n",diceRoll);}
+return 0;}
 
-    int j;
-    int multi=1;
-    for (j=1; j<m+1; ++j){
-        multi= multi*j;
-        }
